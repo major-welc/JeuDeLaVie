@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1361200356 source:c:\users\remy bienvenu\documents\github\jeudelavie\main.cpp
+	<iostream>
+	"include\position.h"
+
+1361200299 c:\users\remy bienvenu\documents\github\jeudelavie\include\position.h
+
+1361200466 source:c:\users\remy bienvenu\documents\github\jeudelavie\src\position.cpp
+	"..\include\Position.h"
+

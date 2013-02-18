@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "include\position.h"
 using namespace std;
 
 int main()
