@@ -2,7 +2,6 @@
 #define MOBILE_H
 
 #include <Element.h>
-using namespace std;
 
 class Mobile : public Element
 {
