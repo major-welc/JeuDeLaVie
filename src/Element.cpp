@@ -13,7 +13,11 @@ Element::~Element()
 }
 
 
-string Element::Getnom() const{ return nom; }
-void Element::Setnom(string _nom) { nom = _nom; }
-Position Element::Getpos() const{ return pos; }
-void Element::Setpos(Position _pos) { pos = _pos; }
+string Element::getNom() const{ return nom; }
+
+void Element::setNom(string _nom) { nom = _nom; }
+
+Position Element::getPos() const{ return pos; }
+
+void Element::setPos(Position _pos) { pos = _pos; }
+
