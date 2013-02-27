@@ -37,3 +37,10 @@ Position::~Position(){
     if ( x%2 == 1 && y%2 == 1)return true;
     return false;
 };
+
+String & operator<<()
+{
+    res= x<< "  " << y;
+    return res;
+
+}
