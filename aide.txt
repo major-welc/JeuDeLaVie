@@ -1,0 +1,8 @@
+monde herite de vecteur
+	clé:position (7,9 ... 4,2...)
+	element: pointeur vers element?
+	(indice dans vecteur (0,1,2...)) <- normal, c' est un vecteur.
+
+map est un attribut de monde
+	position
+	indice dans vecteur
