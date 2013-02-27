@@ -15,7 +15,6 @@ class Position
 
         bool PosOk(int _x, int _y);
         bool PosOk();
-        String & operator<<();
 
     protected:
         int x; // abscisse

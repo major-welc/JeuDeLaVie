@@ -38,9 +38,4 @@ Position::~Position(){
     return false;
 };
 
-String & operator<<()
-{
-    res= x<< "  " << y;
-    return res;
 
-}
