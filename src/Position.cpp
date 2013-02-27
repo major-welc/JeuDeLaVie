@@ -1,5 +1,7 @@
 #include "..\include\Position.h"
 #include <math.h>
+#include <iostream.h>
+
 Position::Position(){
     x=1;
     y=1;
@@ -38,4 +40,9 @@ Position::~Position(){
     return false;
 };
 
-
+/*
+inline ostream & operator << (ostream &o, const Position & p ) // definition de la surcharge
+{
+    return p.getX() << p.getY();
+};
+*/

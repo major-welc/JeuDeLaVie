@@ -10,5 +10,7 @@ int main()
 Monde m;
     Position pos = Position(3,3);
     cout << pos.getX() << "  " << pos.getY() <<"  " << pos.PosOk(pos.getX(),pos.getY()) << "    " << pos.PosOk();
+
+
     return 0;
 }

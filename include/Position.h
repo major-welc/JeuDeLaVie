@@ -16,6 +16,8 @@ class Position
         bool PosOk(int _x, int _y);
         bool PosOk();
 
+        //inline ostream & operator << (ostream &o, const Position & p );
+
     protected:
         int x; // abscisse
         int y; // ordonnée
